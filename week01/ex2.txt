@@ -1,0 +1,30 @@
+  485  1
+  486  man 0
+  487  clear
+  488  exit
+  489  say
+  490  exit
+  491  cd
+  492  cd ~
+  493  cd Library/Containers/ru.keepcoder.Telegram/
+  494  ls
+  495  cd Data/
+  496  ls
+  497  open
+  498  open .
+  499  clear
+  500  exit
+  501  grep gcc /usr/bin/
+  502  grep gcc ls /usr/bin/
+  503  grep gcc /usr/bin
+  504  grep gcc /usr/bin ls
+  505  ls /usr/bin | grep gcc
+  506  ls /usr/bin | grep gcc | sort -r
+  507  cd week1/
+  508  ls /usr/bin | grep gcc | sort -r > ex1.txt 
+  509  clear
+  510  history > ex2.txt
+  511  man history
+  512  date
+  513  sleep 5
+  514  history 30 > ex2.txt
