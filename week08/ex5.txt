@@ -1,0 +1,3 @@
+Physical address uses particular cell of main memory
+
+Virtual address allows to use more space than exists in storage

@@ -1,0 +1,15 @@
+Processes: 421 total, 2 running, 419 sleeping, 1856 threads 
+2019/10/09 12:50:24
+Load Avg: 1.33, 1.51, 1.57 
+CPU usage: 4.26% user, 12.19% sys, 83.53% idle 
+SharedLibs: 330M resident, 66M data, 31M linkedit.
+MemRegions: 88029 total, 3400M resident, 153M private, 2460M shared.
+PhysMem: 15G used (3148M wired), 1495M unused.
+VM: 2929G vsize, 1372M framework vsize, 14709926(0) swapins, 15856707(0) swapouts.
+Networks: packets: 37772112/45G in, 24488108/16G out.
+Disks: 8046114/181G read, 17581242/296G written.
+
+PID    COMMAND          %CPU TIME     #TH   #WQ #PORTS MEM    PURG   CMPRS  PGRP  PPID  STATE    BOOSTS           %CPU_ME %CPU_OTHRS UID FAULTS     COW       MSGSENT    MSGRECV    SYSBSD     SYSMACH    CSW         PAGEINS  IDLEW    POWER INSTRS CYCLES USER                   #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD
+99936  top              0.0  00:00.21 1/1   0   14+    3240K+ 0B     0B     99936 99440 running  *0[1+]           0.00000 0.00000    0   1587+      101+      218518+    109258+    1839+      112445+    165+        0        0        0.0   0      0      root                   N/A    N/A   N/A   N/A   N/A   N/A  
+99935  sleep            0.0  00:00.00 1     0   10+    260K+  0B     0B     550   622   sleeping *0[1+]           0.00000 0.00000    501 310+       70+       23+        11+        83+        48+        2+          0        0        0.0   0      0      zarubin                N/A    N/A   N/A   N/A   N/A   N/A  
+99931  ex3.out            0.0  00:00.03 1     0   10+    50M+   0B     0B     99931 99440 sleeping *0[1+]           0.00000 0.00000    501 13167+     86+       34+        16+        93+        59+        20+         0        3        0.0   0      0      zarubin                N/A    N/A   N/A   N/A   N/A   N/A

@@ -1,0 +1,7 @@
+We have 16 bits.
+
+We could give 13 bits for 8-KB page, because 2^13=8192 that is greater than 8-KB and the closest minimum to the 8-KB.
+So we have 16-13=3 bits left, that means that it is needed 2^3=8 entries for a single-level linear page
+table.
+
+Answer: 8 entries.
