@@ -1,0 +1,23 @@
+===============================================================================================================
+
+Sequence 1 2 3 4 4 3 2 1 would increase hit ratio.
+
+Number of page frames: 3
+Hit: 3
+Miss: 5
+Hit/Miss ratio: 0.600000
+
+(for increasing it is needed to reference pages consequently in the reversed order they were referenced before)
+
+===============================================================================================================
+
+But sequence 1 2 3 4 1 2 3 4 would decrease hit ratio.
+
+Number of page frames: 3
+Hit: 0
+Miss: 8
+Hit/Miss ratio: 0.000000
+
+(for decreasing it is needed to reference pages in the (approximately) same order)
+
+===============================================================================================================
