@@ -1,0 +1,13 @@
+Program 1 output {
+	Hello
+	Hello
+}
+
+Program 2 output {
+	Hello
+
+
+}
+
+Difference appears because of programms write "Hello" to buffer and symbols "\n" clear the buffer.
+In the first programm code forks program with "Hello" in buffer, and in the second programm forks without it (because it was cleared by "\n").
